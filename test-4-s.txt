@@ -1,0 +1,12 @@
+# Test Case: Segmentation Fault Issue
+quiver-capacity: 10
+random-seed: 4321
+max-rand-distance: 40
+max-rand-speed: 40
+max-rand-health: 2
+---
+round: 2
+random-zombies: 20
+named-zombies: 2
+ZombieX distance: 40 speed: 20 health: 5
+ZombieY distance: 30 speed: 10 health: 7

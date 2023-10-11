@@ -1,0 +1,26 @@
+# Test Case: Non-Sequential Round Numbers
+quiver-capacity: 10
+random-seed: 5678
+max-rand-distance: 40
+max-rand-speed: 40
+max-rand-health: 2
+---
+round: 5
+random-zombies: 15
+named-zombies: 2
+ZombieA distance: 25 speed: 15 health: 3
+ZombieB distance: 35 speed: 5 health: 4
+---
+round: 6
+random-zombies: 15
+named-zombies: 2
+ZombieA distance: 25 speed: 15 health: 3
+ZombieB distance: 35 speed: 5 health: 4
+---
+round: 16
+random-zombies: 10
+named-zombies: 2
+ZombieA distance: 25 speed: 15 health: 3
+ZombieB distance: 35 speed: 5 health: 4
+
+

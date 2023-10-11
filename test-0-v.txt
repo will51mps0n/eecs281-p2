@@ -1,0 +1,26 @@
+# Zombies Die in round created
+quiver-capacity: 15
+random-seed: 123
+max-rand-distance: 10
+max-rand-speed: 1
+max-rand-health: 1
+---
+round: 1
+random-zombies: 10
+named-zombies: 1
+ZombieClose distance: 100 speed: 1 health: 1
+---
+round: 3
+random-zombies: 10
+named-zombies: 1
+ZombieClose distance: 100 speed: 1 health: 1
+---
+round: 4
+random-zombies: 10
+named-zombies: 1
+ZombieClose distance: 100 speed: 1 health: 1
+---
+round: 5
+random-zombies: 10
+named-zombies: 1
+ZombieClose distance: 100 speed: 1 health: 1

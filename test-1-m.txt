@@ -1,0 +1,20 @@
+# Zombie tiebreaker
+quiver-capacity: 1
+random-seed: 123
+max-rand-distance: 10
+max-rand-speed: 1
+max-rand-health: 1
+---
+round: 1
+random-zombies: 2
+named-zombies: 2
+ZombieA distance: 2 speed: 2 health: 1
+ZombieB distance: 1 speed: 1 health: 1
+---
+round: 4
+random-zombies: 0
+named-zombies: 4
+ZombieE distance: 5 speed: 5 health: 2
+ZombieD distance: 5 speed: 5 health: 2
+ZombieC distance: 5 speed: 5 health: 2
+ZombieX distance: 5 speed: 5 health: 2

@@ -1,0 +1,16 @@
+# Test Case
+quiver-capacity: 10
+random-seed: 2022300
+max-rand-distance: 50
+max-rand-speed: 60
+max-rand-health: 2
+---
+round: 1
+random-zombies: 0
+named-zombies: 1
+Al distance: 30 speed: 10 health: 10
+---
+round: 200
+random-zombies: 40
+named-zombies: 1
+Al2 distance: 30 speed: 10 health: 10

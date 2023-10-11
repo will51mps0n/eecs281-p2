@@ -1,0 +1,23 @@
+# Test Case: Instant Zombie Death - then  zombies having same activity
+quiver-capacity: 100
+random-seed: 6789
+max-rand-distance: 1
+max-rand-speed: 1
+max-rand-health: 1
+---
+round: 1
+random-zombies: 1
+named-zombies: 0
+---
+round: 2
+random-zombies: 10
+named-zombies: 0
+---
+round: 4
+random-zombies: 0
+named-zombies: 3
+JBLEY distance: 45 speed: 25 health: 50
+JBLEY2 distance: 45 speed: 25 health: 50
+BBLEY distance: 45 speed: 25 health: 50
+
+

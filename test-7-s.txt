@@ -1,0 +1,13 @@
+# Test Case: Memory and Time Management
+quiver-capacity: 10
+random-seed: 7890
+max-rand-distance: 60
+max-rand-speed: 50
+max-rand-health: 2
+---
+round: 1
+random-zombies: 47
+named-zombies: 3
+Al1 distance: 45 speed: 25 health: 5
+Al2 distance: 20 speed: 20 health: 6
+Al3 distance: 55 speed: 15 health: 7

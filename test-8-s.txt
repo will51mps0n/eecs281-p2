@@ -1,0 +1,12 @@
+# Test Case: Limit Most and Least Active Zombies
+quiver-capacity: 15
+random-seed: 8901
+max-rand-distance: 70
+max-rand-speed: 60
+max-rand-health: 3
+---
+round: 1
+random-zombies: 30
+named-zombies: 2
+jbelly1 distance: 60 speed: 20 health: 7
+jeblly2 distance: 50 speed: 30 health: 5

@@ -1,0 +1,26 @@
+Correct output:
+Round: 1
+Created: paoletti0 (distance: 3, speed: 1, health: 1)
+Created: darden1 (distance: 1, speed: 1, health: 1)
+Created: garcia2 (distance: 7, speed: 1, health: 1)
+Created: cris3 (distance: 5, speed: 1, health: 1)
+Created: bing4 (distance: 7, speed: 1, health: 1)
+Created: will5 (distance: 10, speed: 1, health: 1)
+Created: fee6 (distance: 4, speed: 1, health: 1)
+Created: noah7 (distance: 7, speed: 1, health: 1)
+Created: potatobot8 (distance: 10, speed: 1, health: 1)
+Created: paoletti9 (distance: 7, speed: 1, health: 1)
+Created: ZombieClose (distance: 0, speed: 1, health: 1)
+Destroyed: ZombieClose (distance: 0, speed: 1, health: 0)
+Round: 2
+Moved: paoletti0 (distance: 2, speed: 1, health: 1)
+Moved: darden1 (distance: 0, speed: 1, health: 1)
+Moved: garcia2 (distance: 6, speed: 1, health: 1)
+Moved: cris3 (distance: 4, speed: 1, health: 1)
+Moved: bing4 (distance: 6, speed: 1, health: 1)
+Moved: will5 (distance: 9, speed: 1, health: 1)
+Moved: fee6 (distance: 3, speed: 1, health: 1)
+Moved: noah7 (distance: 6, speed: 1, health: 1)
+Moved: potatobot8 (distance: 9, speed: 1, health: 1)
+Moved: paoletti9 (distance: 6, speed: 1, health: 1)
+DEFEAT IN ROUND 2! darden1 ate your brains!
