@@ -49,15 +49,20 @@ public:
 
 void ZombieGame::play_game()
 {
+    bool endOfStream = false;
+    initialize roundInitializer;
+    roundInitializer.firstInitialize(quiverCapacity, starting_round);
     if (starting_round != 1 && arguments.verboseMode)
     {
         for (int i = 1; i < roundNum; i++)
             std::cout << "Round: " << i << std::endl;
     }
+    roundNum = starting_round;
     bool gameWon = false;
 
     while (!gameWon)
     {
+        endOfStream = roundInitializer.initializeZombiesRound(roundNum,zombies);
         if (arguments.verboseMode)
         {
             std::cout << "Round: " << roundNum << std::endl;
@@ -91,7 +96,7 @@ void ZombieGame::play_game()
         {
             std::cout << "At the end of round " << roundNum << ", the median zombie lifetime is " << get_median() << std::endl;
         }
-        if (zombiesPriority.empty() && roundNum > zombies.back().roundCreated - 1) // changed to -1 to fix test case
+        if (zombiesPriority.empty() && endOfStream) // changed to -1 to fix test case
         {
             gameWon = true;
             std::cout << "VICTORY IN ROUND " << roundNum
@@ -240,11 +245,11 @@ void ZombieGame::new_zombies()
         // zombiesHighRounds.push(&zombies[zombieIndex]);
         // zombiesLowRounds.push(&zombies[zombieIndex]);
         //  Debugging: std::cout << "Index: " << zombieIndex << ", Zombie Name: " << zombies[zombieIndex].name << ", Round Created: " << zombies[zombieIndex].roundCreated << std::endl; // Debugging line
-        if (zombies[zombieIndex].distance == 0)
+        /*if (zombies[zombieIndex].distance == 0)
         {
             brainsEaten = true;
             zombieWinner = &zombies[zombieIndex];
-        }
+        }*/
         zombiesPriority.push(&zombies[zombieIndex]);
         zombies[zombieIndex].roundCreated = roundNum;
         if (arguments.verboseMode)

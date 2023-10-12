@@ -1,4 +1,3 @@
-Correct output:
 Round: 1
 Created: paoletti0 (distance: 3, speed: 1, health: 1)
 Created: darden1 (distance: 1, speed: 1, health: 1)

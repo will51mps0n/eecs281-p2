@@ -19,5 +19,3 @@ named-zombies: 3
 JBLEY distance: 45 speed: 25 health: 50
 JBLEY2 distance: 45 speed: 25 health: 50
 BBLEY distance: 45 speed: 25 health: 50
-
-

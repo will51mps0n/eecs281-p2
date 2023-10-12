@@ -117,7 +117,7 @@ int main(int argc, char **argv) {
     uint32_t quiverCapacity = 0;
     int startingRound = 1; // Default starting round
     //std::cout << "hello world" << std::endl;
-    std::vector<Zombie> zombieVector = initializeZombies(quiverCapacity, startingRound);
+    std::vector<Zombie> zombieVector;
     ZombieGame zombieGame(arguments, zombieVector, quiverCapacity, startingRound);
     zombieGame.play_game();
     return 0;
